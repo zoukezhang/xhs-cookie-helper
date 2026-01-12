@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "小红书 Cookie 助手",
+  "version": "1.0",
+  "description": "方便用户快速提取并复制小红书账号的 Cookie 信息。",
+  "permissions": [
+    "cookies"
+  ],
+  "host_permissions": [
+    "*://*.xiaohongshu.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "查看小红书 Cookie"
+  }
+}
